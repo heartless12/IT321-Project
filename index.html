@@ -6,20 +6,53 @@
     <title>News Application</title>
 </head>
 <body>
-    <div id="app" class="light">
+    <div class="box-area">
         <header>
-            <a href="#">News Search & Bookmarks</a>
-            <ul>
-                <a href="#" class="">Top News</a>
-                <a href="bookmarks" class>Bookmarks</a>
-                <button class="toggle-theme">
-                    <i class="fas fa-toggle-off" aria-hidden="true">
-                        ::before
-                    </i>
-                </button>
-            </ul>
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="">News Search and Bookmarks</a>
+                    </div>
+                    <nav>
+                        <a href="">Top News</a>
+                        <a href="">Bookmarks</a>
+                        <a href=""><input type="checkbox" id="switch" name="theme"> <label for="switch">Toggle</label></a>
+                    </nav>                 
+                             </div>
         </header>
-    </div>
+          <div class="content-area">
+           <div class="select-country">
+               <select name="theme"  id="sltr-1">
+               
+                   <option value <"1">Philippines</option>
+                   <option value <"2">United States of America</option>
+                    <option value <"3">United Kingdom</option>
+                    <option value <"4">Canada</option>
+                    <option value <"5">France</option>
+                    <option value <"6">Australia</option>
+                    <option value <"7">Argentina</option>
+                    <option value <"8">Indonesia</option>
+       
+               </select>
+           </div>
+           <div class ="select-category">
+         <select name="theme" id="sltr-1">
+             <option value="1">All category</option>
+             <option value="2">Business</option>
+             <option value="3">Entertainment</option>
+             <option value="4">General</option>
+              <option value="5">Health</option>
+              <option value="6">Science</option>
+               <option value="7">Sports</option>
+                <option value="8">Technology</option>
+         </select>
+           </div>
+           <div class="select-search">
+       <input type="text" placeholder="Key Word">
+           </div>
+          </div>
+          </div>
+        </div>
+
 
     <script src="./js/index.js"></script>
 
